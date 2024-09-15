@@ -34,7 +34,8 @@ function displayMenuItems(menu) {
             // Append the list item to the list of items
             item.appendChild(listItem);
         });
-            
+        // Append the list of items 
+        menuCotainer.appendChild(itemList);      
     }
 }
 
